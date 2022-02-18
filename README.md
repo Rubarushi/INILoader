@@ -10,5 +10,5 @@ value = 0
 ```cs
 INILoader loader = new INILoader("example.ini");
 loader.SetTitle("Test");
-loader.LoadInt("value", -1);
+int value = loader.LoadInt("value", -1);
 ```
