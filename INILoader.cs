@@ -15,7 +15,7 @@ namespace INILoader
         private void CheckTitle()
         {
             if (m_title == string.Empty)
-                throw new Exception("ioINILoader::m_title is Empty");
+                throw new Exception("INILoader::m_title is Empty");
         }
         
         public INILoader()
